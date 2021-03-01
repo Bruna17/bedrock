@@ -6,52 +6,168 @@ $font-path: '/media/fonts';
 $image-path: '/media/protocol/img';
 
 @import '../../../protocol/css/includes/lib';
-
+@import 'includes/lib';
 
 //* -------------------------------------------------------------------------- */
-// Base styles
+// Conditional states
 
-body {
-    background-color: $color-marketing-gray-10;
+/* stylelint-disable declaration-no-important */
+.js-join-waitlist,
+.js-country-list,
+.js-vpn-section-not-available {
+    display: none !important;
+}
+
+.vpn-not-available {
+    // Do not show the "Get Mozilla VPN" button.
+    .js-get-vpn {
+        display: none !important;
+    }
+    // Display the list of countries where VPN is currently available.
+    .js-country-list {
+        display: block !important;
+    }
+    // Display the "Join the Waitlist" button.
+    .js-join-waitlist {
+        display: inline-block !important;
+    }
+    // Do not show the money-back guarantee blurb.
+    .js-money-back-guarantee {
+        display: none !important;
+    }
+    // Do not show block that lists available servers and countries.
+    .js-vpn-section-available {
+        display: none !important;
+    }
+    // Display block that promotes more countries coming soon.
+    .js-vpn-section-not-available {
+        display: block !important;
+
+        @supports(display: grid) {
+            display: grid !important;
+        }
+    }
+}
+/* stylelint-enable declaration-no-important */
+
+//* -------------------------------------------------------------------------- */
+// Guarantee / Availability Copy
+
+.availability-copy,
+.guarantee-copy {
+    @include text-body-md;
+}
+
+.guarantee-copy {
+    color: $color-vpn-brand-violet;
+    font-weight: bold;
+    margin-bottom: $spacing-xl;
+
+    &:before {
+        @include bidi((
+            (padding-right, $spacing-xs, padding-left, 0),
+        ));
+        background-image: url('/media/img/products/vpn/common/check.svg');
+        background-repeat: no-repeat;
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        position: relative;
+        top: 2px;
+    }
+
+    .t-dark & {
+        color: $color-white;
+
+        &:before {
+            background-image: url('/media/img/products/vpn/common/check-white.svg');
+        }
+    }
 }
 
 //* -------------------------------------------------------------------------- */
-// VPN button
+// VPN Nav Button
 
-.vpn-button {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    background-color: $color-white;
-    border: solid 2px $color-black;
-    box-shadow: 8px 8px 0 #6a57dc;
-    color: $color-black;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 32px;
-    margin-bottom: $spacing-lg;
-    padding: 16px 32px;
-    position: relative;
-    text-decoration: none;
-    transition: background-color .15s ease, color .15s ease;
+.vpn-nav-cta {
+    .mzp-c-cta-link {
+        @include text-body-sm;
+        display: block;
+        margin-top: $spacing-lg;
 
-    &:hover,
-    &:active,
-    &:focus {
-        background-color: $color-black;
-        color: $color-white;
-    }
-
-    &.t-dark {
-        background-color: $color-black;
-        color: $color-white;
+        &:link,
+        &:visited {
+            color: $color-black;
+            text-decoration: none;
+        }
 
         &:hover,
         &:active,
         &:focus {
-            background-color: $color-white;
-            color: $color-black;
+            text-decoration: underline;
         }
+    }
+
+    @media #{$mq-md} {
+        @include bidi(((text-align, left, right),));
+        margin-top: 0;
+
+        .mzp-c-cta-link {
+            @include bidi(((margin-left, $spacing-md, margin-right, 0),));
+            display: inline;
+        }
+    }
+}
+
+//* -------------------------------------------------------------------------- */
+// Page VPN Button
+
+main .mzp-c-button.mzp-t-xl {
+    @include font-size(18px);
+    margin-bottom: $spacing-lg;
+}
+
+//* -------------------------------------------------------------------------- */
+// Feature List
+
+.vpn-feature-list.mzp-u-list-styled {
+    @include bidi(((text-align, left, right),));
+    @include text-body-xl;
+    display: inline-block;
+    list-style: image;
+    list-style-image: url('/media/img/products/vpn/common/check-black.svg');
+    margin-bottom: $spacing-lg;
+
+    &.l-columns-two {
+        margin-bottom: $layout-lg;
+    }
+
+    @media #{$mq-md} {
+        margin-bottom: 0;
+
+        &.l-columns-two {
+            column-count: 2;
+            column-gap: $spacing-xl;
+            margin-bottom: $layout-xl;
+        }
+    }
+}
+
+//* -------------------------------------------------------------------------- */
+// Page Footer
+
+.vpn-footer {
+    margin: 0 auto $layout-xl;
+    text-align: center;
+}
+
+.vpn-footer-subscribe-note {
+    margin-bottom: 0;
+}
+
+.vpn-footer-list {
+    a:link,
+    a:visited {
+        @include text-body-xs;
     }
 }

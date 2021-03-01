@@ -11,18 +11,18 @@ class VPNLandingPage(BasePage):
 
     _URL_TEMPLATE = '/{locale}/products/vpn/{params}'
 
-    _try_vpn_hero_button_locator = (By.CSS_SELECTOR, '.vpn-hero .js-try-vpn')
+    _try_vpn_hero_button_locator = (By.CSS_SELECTOR, '.vpn-hero .js-get-vpn')
     _join_waitlist_hero_button_locator = (By.CSS_SELECTOR, '.vpn-hero .js-join-waitlist')
 
-    _try_vpn_navigation_button_locator = (By.CSS_SELECTOR, '.c-navigation-shoulder .js-try-vpn')
+    _try_vpn_navigation_button_locator = (By.CSS_SELECTOR, '.c-navigation-shoulder .js-get-vpn')
     _join_waitlist_navigation_button_locator = (By.CSS_SELECTOR, '.c-navigation-shoulder .js-join-waitlist')
 
-    _try_vpn_price_section_button_locator = (By.CSS_SELECTOR, '.vpn-content-well-price .js-try-vpn')
+    _try_vpn_price_section_button_locator = (By.CSS_SELECTOR, '.vpn-content-well-price .js-get-vpn')
     _join_waitlist_price_section_button_locator = (By.CSS_SELECTOR, '.vpn-content-well-price .js-join-waitlist')
 
     _join_waitlist_section_button_locator = (By.CSS_SELECTOR, '.vpn-content-well-waitlist .vpn-button.waitlist')
 
-    _try_vpn_footer_button_locator = (By.CSS_SELECTOR, '.vpn-faq-footer .js-try-vpn')
+    _try_vpn_footer_button_locator = (By.CSS_SELECTOR, '.vpn-faq-footer .js-get-vpn')
     _join_waitlist_footer_button_locator = (By.CSS_SELECTOR, '.vpn-faq-footer .js-join-waitlist')
 
     @property
