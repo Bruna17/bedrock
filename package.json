@@ -21,7 +21,7 @@
     "gulp-uglify": "^3.0.0",
     "merge-stream": "2.0.0",
     "stylelint": "^10.1.0",
-    "yargs": "14.0.0"
+    "yargs": "14.2.3"
   },
   "repository": {
     "type": "git",
