@@ -20,7 +20,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "merge-stream": "2.0.0",
-    "stylelint": "^10.1.0",
+    "stylelint": "^13.0.0",
     "yargs": "14.0.0"
   },
   "repository": {
