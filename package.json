@@ -9,19 +9,19 @@
     "ansi-colors": "4.1.1",
     "clean-css-cli": "4.3.0",
     "del": "5.1.0",
-    "eslint": "^7.0.0",
+    "eslint": "^7.16.0",
     "gulp": "4.0.2",
     "gulp-cached": "^1.1.1",
     "gulp-clean-css": "4.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-filter": "6.0.0",
     "gulp-if": "3.0.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "merge-stream": "2.0.0",
-    "stylelint": "^10.1.0",
-    "yargs": "14.0.0"
+    "stylelint": "^13.7.0",
+    "yargs": "15.0.1"
   },
   "repository": {
     "type": "git",
