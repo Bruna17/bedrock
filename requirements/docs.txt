@@ -1,4 +1,4 @@
-Sphinx==1.8.3 \
+Sphinx==3.0.4 \
     --hash=sha256:429e3172466df289f0f742471d7e30ba3ee11f3b5aecd9a840480d03f14bcfe5 \
     --hash=sha256:c4cb17ba44acffae3d3209646b6baec1e215cad3065e852c68cc569d4df1b9f8
 recommonmark==0.5.0 \
@@ -39,7 +39,7 @@ MarkupSafe==1.1.0 \
     --hash=sha256:1c25694ca680b6919de53a4bb3bdd0602beafc63ff001fea2f2fc16ec3a11834 \
     --hash=sha256:7d263e5770efddf465a9e31b78362d84d015cc894ca2c131901a4445eaa61ee1 \
     --hash=sha256:4e97332c9ce444b0c2c38dd22ddc61c743eb208d916e4265a2a3b575bdccb1d3
-Jinja2==2.10.3 \
+Jinja2==2.11.3 \
     --hash=sha256:74320bb91f31270f9551d46522e33af46a80c3d619f4a4bf42b3164d30b5911f \
     --hash=sha256:9fe95f19286cfefaa917656583d020be14e7859c6b0252588391e47db34527de
 imagesize==1.1.0 \
@@ -48,10 +48,10 @@ imagesize==1.1.0 \
 pytz==2018.9 \
     --hash=sha256:32b0891edff07e28efe91284ed9c31e123d84bea3fd98e1f72be2508f43ef8d9 \
     --hash=sha256:d5f05e487007e29e03409f9398d074e158d920d36eb82eaf66fb1136b0c5374c
-Babel==2.6.0 \
+Babel==2.9.1 \
     --hash=sha256:6778d85147d5d85345c14a26aada5e478ab04e39b078b0745ee6870c2b5cf669 \
     --hash=sha256:8cba50f48c529ca3fa18cf81fa9403be176d374ac4d60738b839122dfaaa3d23
-Pygments==2.4.2 \
+Pygments==2.7.4 \
     --hash=sha256:71e430bc85c88a430f000ac1d9b331d2407f681d6f6aec95e8bcfbc3df5b0127 \
     --hash=sha256:881c4c157e45f30af185c1ffe8d549d48ac9127433f2c380c24b84572ad66297
 six==1.12.0 \
@@ -76,7 +76,7 @@ idna==2.8 \
 certifi==2018.11.29 \
     --hash=sha256:993f830721089fef441cdfeb4b2c8c9df86f0c63239f06bd025a76a7daddb033 \
     --hash=sha256:47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7
-urllib3==1.25.6 \
+urllib3==1.26.5 \
     --hash=sha256:3de946ffbed6e6746608990594d08faac602528ac7015ac28d33cee6a45b7398 \
     --hash=sha256:9a107b99a5393caf59c7aa3c1249c16e6879447533d0887f4336dde834c7be86
 requests==2.22.0 \
