@@ -277,7 +277,7 @@ oauthlib==3.0.1 \
     --hash=sha256:3e1e14f6cde7e5475128d30e97edc3bfb4dc857cb884d8714ec161fdbb3b358e
 PySocks==1.6.8 \
     --hash=sha256:3fe52c55890a248676fd69dc9e3c4e811718b777834bcaab7a8125cf9deac672
-urllib3==1.25.6 \
+urllib3==1.26.5 \
     --hash=sha256:3de946ffbed6e6746608990594d08faac602528ac7015ac28d33cee6a45b7398 \
     --hash=sha256:9a107b99a5393caf59c7aa3c1249c16e6879447533d0887f4336dde834c7be86
 fluent.runtime==0.3 \
