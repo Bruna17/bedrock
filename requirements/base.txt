@@ -1,7 +1,7 @@
-Django==2.2.13 \
+Django==3.2.15 \
     --hash=sha256:84f370f6acedbe1f3c41e1a02de44ac206efda3355e427139ecb785b5f596d80 \
     --hash=sha256:e8fe3c2b2212dce6126becab7a693157f1a441a07b62ec994c046c76af5bb66d
-sqlparse==0.3.0 \
+sqlparse==0.4.2 \
     --hash=sha256:40afe6b8d4b1117e7dff5504d7a8ce07d9a1b15aeeade8a2d10f130a834f8177 \
     --hash=sha256:7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873
 MarkupSafe==1.1.1 \
@@ -38,7 +38,7 @@ MarkupSafe==1.1.1 \
     --hash=sha256:cdb132fc825c38e1aeec2c8aa9338310d29d337bebbd7baa06889d09a60a1fa2 \
     --hash=sha256:e249096428b3ae81b08327a63a485ad0878de3fb939049038579ac0ef61e17e7 \
     --hash=sha256:e8313f01ba26fbbe36c7be1966a7b7424942f670f38e666995b88d012765b9be
-lxml==4.3.3 \
+lxml==4.9.1 \
     --hash=sha256:03984196d00670b2ab14ae0ea83d5cc0cfa4f5a42558afa9ab5fa745995328f5 \
     --hash=sha256:0815b0c9f897468de6a386dc15917a0becf48cc92425613aa8bbfc7f0f82951f \
     --hash=sha256:175f3825f075cf02d15099eb52658457cf0ff103dcf11512b5d2583e1d40f58b \
@@ -65,7 +65,7 @@ lxml==4.3.3 \
     --hash=sha256:fd213bb5166e46974f113c8228daaef1732abc47cb561ce9c4c8eaed4bd3b09b \
     --hash=sha256:fdcb57b906dbc1f80666e6290e794ab8fb959a2e17aa5aee1758a85d1da4533f \
     --hash=sha256:ff424b01d090ffe1947ec7432b07f536912e0300458f9a7f48ea217dd8362b86
-Jinja2==2.11.1 \
+Jinja2==2.11.3 \
     --hash=sha256:93187ffbc7808079673ef52771baa950426fd664d3aad1d0fa3e95644360e250 \
     --hash=sha256:b0eaf100007721b5c16c1fc1eecb87409464edc10469ddc9a22a27a99123be49
 icalendar==3.8.3 \
@@ -158,7 +158,7 @@ django-cors-headers==2.5.3 \
 puente==0.5.0 \
     --hash=sha256:4a17958f7d6a83cb9ff92593c40f34911abafaec6ad959916b754aaa3869f11f \
     --hash=sha256:7ba1d07f9cee9657adf874bd94879b343fea81a783fdfa8e53885520477bf1ea
-babel==2.3.4 \
+babel==2.9.1 \
     --hash=sha256:3318ed2960240d61cbc6558858ee00c10eed77a6508c4d1ed8e6f7f48399c975 \
     --hash=sha256:c535c4403802f6eb38173cd4863e419e2274921a01a8aad8a5b497c131c62875
 django-jinja==2.6.0 \
@@ -326,3 +326,4 @@ sentry-sdk==0.16.1 \
 qrcode==6.1 \
     --hash=sha256:3996ee560fc39532910603704c82980ff6d4d5d629f9c3f25f34174ce8606cf5 \
     --hash=sha256:505253854f607f2abf4d16092c61d4e9d511a3b4392e60bff957a68592b04369
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
