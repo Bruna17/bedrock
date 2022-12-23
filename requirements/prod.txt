@@ -34,3 +34,4 @@ zope.event==4.5.0 \
     # via gevent
 zope.interface==5.2.0 \
     --hash=sha256:55465121e72e208a7b69b53de791402affe6165083b2ea71b892728bd19ba9ae
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
