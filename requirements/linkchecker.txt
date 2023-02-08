@@ -3,3 +3,4 @@ linkchecker==9.3 \
 requests==2.20.0 \
     --hash=sha256:99dcfdaaeb17caf6e526f32b6a7b780461512ab3f1d992187801694cba42770c \
     --hash=sha256:a84b8c9ab6239b578f22d1c21d51b696dcfe004032bb80ea832398d6909d7279
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
