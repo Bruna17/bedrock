@@ -210,7 +210,7 @@ django-jsonview==1.1.0 \
 boto3==1.4.8 \
     --hash=sha256:edd35eb7cd8d56f08e65b112206936cf9f76bb406fb15f63075ff72331ef6f5f \
     --hash=sha256:332c6a17fd695581dd6f9ed825ce13c2d5ee3a6f5e1b079bed0ff7293809faf0
-botocore==1.8.6 \
+botocore==1.9.12 \
     --hash=sha256:ea67794478a3cd9001c3fa7dfcdf0aa90ab30858130041045ec8f9f90d3a2063 \
     --hash=sha256:58db28effd55b603cb668065cf868804b7ff5680986b79516b5f48600d39819b
 jmespath==0.9.3 \
@@ -320,7 +320,7 @@ django-prometheus==2.1.0 \
 prometheus-client==0.8.0 \
     --hash=sha256:983c7ac4b47478720db338f1491ef67a100b474e3bc7dafcbaefb7d0b8f9b01c \
     --hash=sha256:c6e6b706833a6bd1fd51711299edee907857be10ece535126a158f911ee80915
-sentry-sdk==0.16.1 \
+sentry-sdk==1.4.1 \
     --hash=sha256:2f023ff348359ec5f0b73a840e8b08e6a8d3b2613a98c57d11c222ef43879237 \
     --hash=sha256:380a280cfc7c4ade5912294e6d9aa71ce776b5fca60a3782e9331b0bcd2866bf
 qrcode==6.1 \
