@@ -136,3 +136,4 @@ importlib-metadata==3.1.1 \
 zipp==3.4.0 \
     --hash=sha256:102c24ef8f171fd729d46599845e95c7ab894a4cf45f5de11a44cc7444fb1108 \
     --hash=sha256:ed5eee1974372595f9e416cc7bbeeb12335201d8081ca8a0743c954d4446e5cb
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
