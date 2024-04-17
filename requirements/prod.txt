@@ -8,7 +8,7 @@ greenlet==0.4.16 \
     --hash=sha256:682328aa576ec393c1872615bcb877cf32d800d4a2f150e1a5dc7e56644010b1
 gevent-websocket==0.10.1 \
     --hash=sha256:17b67d91282f8f4c973eba0551183fc84f56f1c90c8f6b6b30256f31f66f5242
-gunicorn==20.0.4 \
+gunicorn==22.0.0 \
     --hash=sha256:cd4a810dd51bf497552cf3f863b575dabd73d6ad6a91075b65936b151cbf4f9c
 apscheduler==3.0.5 \
     --hash=sha256:3f2d93e51d8c7716a007fc3822f4eab5ce6ba0e9b78d1c8828079888bc9f45bb \
