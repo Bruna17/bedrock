@@ -15,7 +15,7 @@ apscheduler==3.0.5 \
     --hash=sha256:009dcf552035b30ee967f2677d0d7a49a88f2d36291c42669aa069dd549da9e4
 tzlocal==1.2.2 \
     --hash=sha256:cbbaa4e9d25c36386f12af9febe315139fdd39317b91abcb42d782a5e93e525d
-supervisor==4.0.1 \
+supervisor==4.0.4 \
     --hash=sha256:3268709d7e3d4e728f88fd06a29215916e1e59ff5fad5fead9de856df6f98382 \
     --hash=sha256:dbc7417425a354f304eab981999b1378ea8c7405c43673fbbc794c7a929f85cc
 meld3==1.0.2 \
