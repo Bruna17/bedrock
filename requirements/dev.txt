@@ -133,6 +133,9 @@ tblib==1.7.0 \
 importlib-metadata==3.1.1 \
     --hash=sha256:6112e21359ef8f344e7178aa5b72dc6e62b38b0d008e6d3cb212c5b84df72013 \
     --hash=sha256:b0c2d3b226157ae4517d9625decf63591461c66b3a808c2666d538946519d170
-zipp==3.4.0 \
+zipp==3.19.1 \
     --hash=sha256:102c24ef8f171fd729d46599845e95c7ab894a4cf45f5de11a44cc7444fb1108 \
     --hash=sha256:ed5eee1974372595f9e416cc7bbeeb12335201d8081ca8a0743c954d4446e5cb
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
