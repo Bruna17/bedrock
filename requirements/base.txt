@@ -1,7 +1,7 @@
-Django==2.2.13 \
+Django==2.2.24 \
     --hash=sha256:84f370f6acedbe1f3c41e1a02de44ac206efda3355e427139ecb785b5f596d80 \
     --hash=sha256:e8fe3c2b2212dce6126becab7a693157f1a441a07b62ec994c046c76af5bb66d
-sqlparse==0.3.0 \
+sqlparse==0.5.0 \
     --hash=sha256:40afe6b8d4b1117e7dff5504d7a8ce07d9a1b15aeeade8a2d10f130a834f8177 \
     --hash=sha256:7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873
 MarkupSafe==1.1.1 \
@@ -98,7 +98,7 @@ beautifulsoup4==4.7.1 \
 soupsieve==1.9.1 \
     --hash=sha256:6898e82ecb03772a0d82bd0d0a10c0d6dcc342f77e0701d0ec4a8271be465ece \
     --hash=sha256:b20eff5e564529711544066d7dc0f7661df41232ae263619dede5059799cdfca
-certifi==2019.3.9 \
+certifi==2023.7.22 \
     --hash=sha256:59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5 \
     --hash=sha256:b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae
 django-recaptcha==1.0.3 \
@@ -170,7 +170,7 @@ django-jinja-markdown==1.0.1 \
 Markdown==3.1 \
     --hash=sha256:fc4a6f69a656b8d858d7503bda633f4dd63c2d70cf80abdc6eafa64c4ae8c250 \
     --hash=sha256:fe463ff51e679377e3624984c829022e2cfb3be5518726b06f608a07a3aad680
-requests==2.22.0 \
+requests==2.32.2 \
     --hash=sha256:11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4 \
     --hash=sha256:9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31
 django-mozilla-product-details==0.13.1 \
@@ -226,7 +226,7 @@ docutils==0.14 \
 babis==0.2.1 \
     --hash=sha256:610416de748d0708a153dd7e2a42c95b4938689e033eb96b92e92b0a0049dc24 \
     --hash=sha256:d900322567fe7acd5898f91e1e9a21dff47b4d29a38c28c98f2e6e6745b5108b
-Pillow==7.2.0 \
+Pillow==10.3.0 \
     --hash=sha256:0295442429645fa16d05bd567ef5cff178482439c9aad0411d3f0ce9b88b3a6f \
     --hash=sha256:06aba4169e78c439d528fdeb34762c3b61a70813527a2c57f0540541e9f433a8 \
     --hash=sha256:09d7f9e64289cb40c2c8d7ad674b2ed6105f55dc3b09aa8e4918e20a0311e7ad \
@@ -277,7 +277,7 @@ oauthlib==3.0.1 \
     --hash=sha256:3e1e14f6cde7e5475128d30e97edc3bfb4dc857cb884d8714ec161fdbb3b358e
 PySocks==1.6.8 \
     --hash=sha256:3fe52c55890a248676fd69dc9e3c4e811718b777834bcaab7a8125cf9deac672
-urllib3==1.25.6 \
+urllib3==1.26.19 \
     --hash=sha256:3de946ffbed6e6746608990594d08faac602528ac7015ac28d33cee6a45b7398 \
     --hash=sha256:9a107b99a5393caf59c7aa3c1249c16e6879447533d0887f4336dde834c7be86
 fluent.runtime==0.3 \
@@ -289,7 +289,7 @@ fluent.syntax==0.17.0 \
 attrs==19.1.0 \
     --hash=sha256:69c0dbf2ed392de1cb5ec704444b08a5ef81680a61cb899dc08127123af36a79 \
     --hash=sha256:f0b870f674851ecbfbbbd364d6b5cbdff9dcedbc7f3f5e18a6891057f21fe399
-idna==2.7 \
+idna==3.7 \
     --hash=sha256:156a6814fb5ac1fc6850fb002e0852d56c0c8d2531923a51032d1b70760e186e \
     --hash=sha256:684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16
 dirsync==2.2.4 \
@@ -300,7 +300,7 @@ PyGithub==1.47 \
 Deprecated==1.2.9 \
     --hash=sha256:0cf37d293a96805c6afd8b5fc525cb40f23a2cac9b2d066ac3bd4b04e72ceccc \
     --hash=sha256:55b41a15bda04c6a2c0d27dd4c2b7b81ffa6348c9cad8f077ac1978c59927ab9
-PyJWT==1.7.1 \
+PyJWT==2.4.0 \
     --hash=sha256:5c6eca3c2940464d106b99ba83b00c6add741c9becaec087fb7ccdefea71350e \
     --hash=sha256:8d59a976fb773f3e6a39c85636357c4f0e242707394cadadd9814f5cbaa20e96
 wrapt==1.12.1 \
