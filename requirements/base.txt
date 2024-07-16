@@ -326,3 +326,4 @@ sentry-sdk==0.16.1 \
 qrcode==6.1 \
     --hash=sha256:3996ee560fc39532910603704c82980ff6d4d5d629f9c3f25f34174ce8606cf5 \
     --hash=sha256:505253854f607f2abf4d16092c61d4e9d511a3b4392e60bff957a68592b04369
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
