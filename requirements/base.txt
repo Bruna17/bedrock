@@ -320,7 +320,7 @@ django-prometheus==2.1.0 \
 prometheus-client==0.8.0 \
     --hash=sha256:983c7ac4b47478720db338f1491ef67a100b474e3bc7dafcbaefb7d0b8f9b01c \
     --hash=sha256:c6e6b706833a6bd1fd51711299edee907857be10ece535126a158f911ee80915
-sentry-sdk==0.16.1 \
+sentry-sdk==2.8.0 \
     --hash=sha256:2f023ff348359ec5f0b73a840e8b08e6a8d3b2613a98c57d11c222ef43879237 \
     --hash=sha256:380a280cfc7c4ade5912294e6d9aa71ce776b5fca60a3782e9331b0bcd2866bf
 qrcode==6.1 \
