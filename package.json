@@ -9,7 +9,7 @@
     "ansi-colors": "4.1.1",
     "clean-css-cli": "4.3.0",
     "del": "5.1.0",
-    "eslint": "^7.0.0",
+    "eslint": "^9.15.0",
     "gulp": "4.0.2",
     "gulp-cached": "^1.1.1",
     "gulp-clean-css": "4.2.0",
